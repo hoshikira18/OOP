@@ -32,4 +32,8 @@ public class Validation {
         }
         return false;
     }
+
+    public boolean checkSameIdUpdateName (String curentName, String newName) {
+        return curentName.equals(newName);
+    }
 }

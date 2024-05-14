@@ -32,6 +32,9 @@ public class Main {
                     break;
                 case 5:
                     break;
+                case 6: {
+                    studentController.showAllStudents();
+                }
                 default:
                     System.out.println("Enter valid option! (1-5)");
                     break;

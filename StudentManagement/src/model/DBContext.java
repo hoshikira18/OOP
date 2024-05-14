@@ -1,12 +1,18 @@
 package model;
 
+import view.StudentView;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Scanner;
 
 public class DBContext {
     ArrayList<Student> studentsArray = new ArrayList<Student>();
     Validation validation = new Validation();
+    StudentView studentView = new StudentView();
+    Scanner scanner = new Scanner(System.in);
+
     Student s1 = new Student("HE187268", "Tran Van Khuyen", "3", "SE");
     Student s3 = new Student("HE170019", "Phung Thi Khanh Linh", "3", "SE");
     Student s4 = new Student("HE187269", "Tran Van Khuyen b", "3", "SE");
@@ -59,14 +65,22 @@ public class DBContext {
         studentsArray.remove(student);
     }
 
-    public void updateStudent(Student newStudent, String id) {
-        for (Student student : studentsArray) {
-            if(student.getCode().equals(id)) {
-                studentsArray.remove(student);
-                break;
-            }
+    public void updateStudent(Student newStudent, int index) {
+        if(index-1 >= 0 && index-1 < studentsArray.size()) {
+            studentsArray.remove(index-1);
+        }
+        else {
+            System.out.println("Invalid option");
         }
         studentsArray.add(newStudent);
+    }
+
+    public void updateStudentName(String newName, String id) {
+        for (Student student : studentsArray) {
+            if(student.getCode().equals(id)) {
+                student.setStudentName(newName);
+            }
+        }
     }
 
     public void sortReports(ArrayList<Report> reports) {

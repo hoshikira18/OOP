@@ -18,12 +18,16 @@ public class StudentView {
         System.out.print(" Enter your choice: ");
     }
 
+    public void showStudent(Student student, int id) {
+        System.out.println("ID: " + student.getCode() +
+                " - NAME: " + student.getStudentName() +
+                " - SEMESTER: " + student.getSemester() +
+                " - COURSE: " + student.getCourseName());
+    }
+
     public void showMultipleStudents(ArrayList<Student> students) {
-        for (Student student : students) {
-            System.out.println("ID: " + student.getCode() +
-                    " - NAME: " + student.getStudentName() +
-                    " - SEMESTER: " + student.getSemester() +
-                    " - COURSE: " + student.getCourseName());
+        for (int i = 0; i < students.size(); i++) {
+            showStudent(students.get(i), i+1);
         }
     }
 

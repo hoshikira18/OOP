@@ -3,6 +3,7 @@ package controller;
 import model.DBContext;
 import model.Report;
 import model.Student;
+import model.Validation;
 import view.StudentView;
 
 import java.util.ArrayList;
@@ -12,6 +13,7 @@ public class StudentController {
     Scanner scanner = new Scanner(System.in);
     private final StudentView view = new StudentView();
     private final DBContext db = new DBContext();
+    private final Validation validation = new Validation();
 
     public void addSampleStudents() {
         db.addSampleStudents();
@@ -84,6 +86,14 @@ public class StudentController {
                 db.deleteStudentById(student);
             }
             if (isUpdate == 1) {
+                for (Student s : db.getAllStudents()) {
+                    if (s.getCode().equals(studentID)) {
+                        view.showStudent(s, db.getAllStudents().indexOf(student));
+                    }
+                }
+                System.out.print("Chose record you want to update: ");
+                int index = scanner.nextInt();
+                scanner.nextLine();
 
                 int option = 0;
                 while (option != 5) {
@@ -96,28 +106,34 @@ public class StudentController {
                             System.out.print("Enter new student ID: ");
                             String newStudentID = scanner.nextLine();
                             student.setCode(newStudentID);
+                            db.updateStudent(student, index);
+                            view.showSuccess();
                             break;
                         case 2:
                             System.out.print("Enter new student name: ");
                             String newStudentName = scanner.nextLine();
-                            student.setStudentName(newStudentName);
+                            db.updateStudentName(newStudentName, studentID);
+                            view.showSuccess();
                             break;
                         case 3:
                             System.out.print("Enter new student semester: ");
                             String newStudentSemester = scanner.nextLine();
                             student.setSemester(newStudentSemester);
+                            db.updateStudent(student, index);
+                            view.showSuccess();
                             break;
                         case 4:
                             System.out.print("Enter new student course name: ");
                             String newStudentCourseName = scanner.nextLine();
                             student.setCourseName(newStudentCourseName);
+                            db.updateStudent(student, index);
+                            view.showSuccess();
                             break;
                         default:
                             break;
                     }
                 }
-                db.updateStudent(student, studentID);
-                view.showSuccess();
+
             }
         }
     }
