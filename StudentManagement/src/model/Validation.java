@@ -36,4 +36,8 @@ public class Validation {
     public boolean checkSameIdUpdateName (String curentName, String newName) {
         return curentName.equals(newName);
     }
+
+    public boolean checkOutOfIndex(ArrayList<Student> students, int index) {
+        return (index < 0 || index >= students.size());
+    }
 }

@@ -95,6 +95,11 @@ public class StudentController {
                 int index = scanner.nextInt();
                 scanner.nextLine();
 
+                if(validation.checkOutOfIndex(db.getAllStudents(), index)) {
+                    System.out.println("You are out of bounds");
+                    return;
+                }
+
                 int option = 0;
                 while (option != 5) {
                     System.out.println("Enter your choice: ");
@@ -105,7 +110,7 @@ public class StudentController {
                         case 1:
                             System.out.print("Enter new student ID: ");
                             String newStudentID = scanner.nextLine();
-                            student.setCode(newStudentID);
+                            db.updateStudentId(newStudentID, studentID);
                             db.updateStudent(student, index);
                             view.showSuccess();
                             break;

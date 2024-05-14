@@ -71,6 +71,7 @@ public class DBContext {
         }
         else {
             System.out.println("Invalid option");
+            return;
         }
         studentsArray.add(newStudent);
     }
@@ -79,6 +80,14 @@ public class DBContext {
         for (Student student : studentsArray) {
             if(student.getCode().equals(id)) {
                 student.setStudentName(newName);
+            }
+        }
+    }
+
+    public void updateStudentId(String newId, String id) {
+        for (Student student : studentsArray) {
+            if(student.getCode().equals(id)) {
+                student.setCode(newId);
             }
         }
     }

@@ -13,7 +13,7 @@ public class Main {
         studentController.addSampleStudents();
 
         int option = 0;
-        while (option != 8) {
+        while (option != 5) {
             studentView.showMenu();
             option = sc.nextInt();
             switch (option) {
