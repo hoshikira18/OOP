@@ -15,5 +15,6 @@ public class Main {
         graph.addEdge("D", "E", 1);
         graph.addEdge("E", "A", 4);
         graph.display();
+        graph.DFS("A");
     }
 }

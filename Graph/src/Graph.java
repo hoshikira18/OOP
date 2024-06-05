@@ -40,7 +40,7 @@ public class Graph {
             System.out.print(vertex.label + " -> ");
 
             for (Map.Entry<Vertex, Integer> adj : vertex.adjList.entrySet()) {
-                System.out.print(adj.getKey().label + "-" + adj.getValue() + " ");
+                System.out.print("(" + adj.getKey().label + ", " + adj.getValue() + ") ");
             }
 
             System.out.println("");
@@ -55,9 +55,27 @@ public class Graph {
         while(!queue.isEmpty()) {
             Vertex current = queue.deQueue();
             if(!visited.contains(current)) {
-                System.out.println();
+                System.out.print(current.label + " ");
                 for (Map.Entry<Vertex, Integer> adj : current.adjList.entrySet()) {
                     queue.enQueue(adj.getKey());
+                }
+            }
+            visited.add(current);
+        }
+    }
+
+    public void DFS(String label) {
+        ArrayList<Vertex> visited = new ArrayList<>();
+        Stack<Vertex> stack = new Stack<>(1000);
+        Vertex startNode = this.getVertex(label);
+        stack.push(startNode);
+
+        while(!stack.isEmpty()) {
+            Vertex current = stack.pop();
+            if(!visited.contains(current)) {
+                System.out.print(current.label + " ");
+                for (Map.Entry<Vertex, Integer> adj : current.adjList.entrySet()) {
+                    stack.push(adj.getKey());
                 }
             }
             visited.add(current);
