@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c43028a-b642-477a-b308-3a7f062c2410" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CompanyManager/CompanyManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAutomicInteger/TestAutomicInteger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyManager/src/model/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyManager/src/model/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyManager/src/model/ExperienceCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyManager/src/model/ExperienceCandidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyManager/src/model/FresherCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyManager/src/model/FresherCandidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyManager/src/model/InternCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyManager/src/model/InternCandidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyManager/src/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyManager/src/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompanyManager/src/util/ValidationInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CompanyManager/src/util/ValidationInfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci/src/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graph/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Graph/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graph/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Graph/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graph/src/StackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Graph/src/StackArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/LinkStack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/src/LinkedStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkStack/src/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentManagement/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManagement/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TreeStructure/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TreeStructure/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TreeStructure/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TreeStructure/src/Tree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2hTDicDg8FeKx2vFB2VrX6uAILc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ADMIN/IdeaProjects/Stack/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Stack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c43028a-b642-477a-b308-3a7f062c2410" name="Changes" comment="" />
+      <created>1717609303853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717609303853</updated>
+      <workItem from="1717609304882" duration="1598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
