@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LinkStack.iml" filepath="$PROJECT_DIR$/LinkStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestAutomicInteger.iml" filepath="$PROJECT_DIR$/TestAutomicInteger.iml" />
     </modules>
   </component>
 </project>

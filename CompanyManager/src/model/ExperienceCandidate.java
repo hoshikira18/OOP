@@ -1,2 +1,5 @@
-package model;public class ExperienceCandidate {
+package model;
+
+public class ExperienceCandidate extends Candidate {
+
 }

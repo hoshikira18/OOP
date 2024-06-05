@@ -1,2 +1,4 @@
-package model;public class InternCandidate {
+package model;
+
+public class InternCandidate extends Candidate {
 }
