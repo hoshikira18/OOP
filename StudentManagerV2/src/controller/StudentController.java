@@ -15,20 +15,6 @@ public class StudentController {
     public List<Student> studentsList = new ArrayList<>();
     final int NUMBER_OF_ADDING = 2;
 
-    Student s1 = new Student("HE187268", new CourseRecord("Java", "3"), "Tran Van Khuyen");
-    Student s2 = new Student("HE187268", new CourseRecord(".NET", "3"), "Tran Van Khuyen");
-    Student s3 = new Student("HE187268", new CourseRecord("C/C++", "3"), "Tran Van Khuyen");
-    Student s5 = new Student("HE187268", new CourseRecord("C/C++", "4"), "Tran Van Khuyen");
-    Student s4 = new Student("HE187269", new CourseRecord("C/C++", "5"), "Tran Van Linh");
-
-    public void addSample () {
-        studentsList.add(s1);
-        studentsList.add(s2);
-        studentsList.add(s3);
-        studentsList.add(s4);
-        studentsList.add(s5);
-    }
-
     public void addStudent() {
         String sCode = validation.getStudentCode();
         // if student existed -> return this student
