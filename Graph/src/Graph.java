@@ -1,8 +1,5 @@
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Graph {
     Set<Vertex> vertices;
@@ -47,38 +44,58 @@ public class Graph {
         }
     }
 
-    public void BFS(String label) {
+    public void BFS (String label) {
+        Vertex startVertex = getVertex(label);
         QueueArray<Vertex> queue = new QueueArray<>(1000);
-        queue.enQueue(this.getVertex(label));
         ArrayList<Vertex> visited = new ArrayList<>();
-
+        queue.enQueue(startVertex);
         while(!queue.isEmpty()) {
-            Vertex current = queue.deQueue();
-            if(!visited.contains(current)) {
-                System.out.print(current.label + " ");
-                for (Map.Entry<Vertex, Integer> adj : current.adjList.entrySet()) {
-                    queue.enQueue(adj.getKey());
+            Vertex vertex = queue.deQueue();
+            if(!visited.contains(vertex)) {
+                System.out.print(vertex.label + " ");
+                for (Map.Entry<Vertex, Integer> adj : vertex.adjList.entrySet()) {
+                    if(!visited.contains(adj.getKey())) {
+                        queue.enQueue(adj.getKey());
+                    }
                 }
+                visited.add(vertex);
             }
-            visited.add(current);
         }
     }
 
-    public void DFS(String label) {
-        ArrayList<Vertex> visited = new ArrayList<>();
+    public void DFS (String label) {
+        Vertex startVetext = getVertex(label);
         Stack<Vertex> stack = new Stack<>(1000);
-        Vertex startNode = this.getVertex(label);
-        stack.push(startNode);
+        ArrayList<Vertex> visited = new ArrayList<>();
+        stack.push(startVetext);
 
         while(!stack.isEmpty()) {
-            Vertex current = stack.pop();
-            if(!visited.contains(current)) {
-                System.out.print(current.label + " ");
-                for (Map.Entry<Vertex, Integer> adj : current.adjList.entrySet()) {
-                    stack.push(adj.getKey());
+            Vertex vertex = stack.pop();
+            if(!visited.contains(vertex)) {
+                System.out.print(vertex.label + " ");
+                for (Map.Entry<Vertex, Integer> adj : vertex.adjList.entrySet()) {
+                    if(!visited.contains(adj.getKey())) {
+                        stack.push(adj.getKey());
+                    }
                 }
+                visited.add(vertex);
             }
-            visited.add(current);
         }
-    }
+     }
+
+     public void dijkstra(String start, String end) {
+        QueueArray<Vertex> queue =
+
+                QueueArray<>(1000);
+        ArrayList<Vertex> visited = new ArrayList<>();
+         HashMap<Vertex, Integer> distance =  new HashMap<>();
+         HashMap<Vertex, Vertex> previous = new HashMap<>();
+
+         for(Vertex vertex : this.vertices) {
+             distance.put(vertex, Integer.MAX_VALUE);
+         }
+
+         Vertex startVertex = this.getVertex(start);
+
+     }
 }

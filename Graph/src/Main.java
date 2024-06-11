@@ -8,13 +8,15 @@ public class Main {
         graph.addVertex("C");
         graph.addVertex("D");
         graph.addVertex("E");
+        graph.addVertex("K");
         graph.addEdge("A", "B", 5);
         graph.addEdge("B", "C", 4);
         graph.addEdge("C", "A", 3);
         graph.addEdge("A", "D", 2);
         graph.addEdge("D", "E", 1);
         graph.addEdge("E", "A", 4);
+        graph.addEdge("E", "K", 4);
         graph.display();
-        graph.DFS("A");
+        graph.DFS("D");
     }
 }
