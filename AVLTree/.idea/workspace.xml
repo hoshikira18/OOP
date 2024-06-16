@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d418a45b-fa32-44f8-a56b-d665aa292860" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DataStructure/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructure/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentManagerV2/src/util/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManagerV2/src/util/Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TreeStructure/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TreeStructure/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TreeStructure/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TreeStructure/src/Tree.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hpgCQGj4auHR8oVFC1Ul47TTVt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/IdeaProjects/TRAN_VAN_KHUYEN_HE187268",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ADMIN/IdeaProjects/AVLTree/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AVLTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d418a45b-fa32-44f8-a56b-d665aa292860" name="Changes" comment="" />
+      <created>1718296308100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718296308100</updated>
+      <workItem from="1718296309121" duration="1508000" />
+      <workItem from="1718297910645" duration="3372000" />
+      <workItem from="1718301434475" duration="2437000" />
+      <workItem from="1718303936550" duration="258000" />
+      <workItem from="1718304799287" duration="183000" />
+      <workItem from="1718305000886" duration="4170000" />
+      <workItem from="1718335543399" duration="3048000" />
+      <workItem from="1718339140882" duration="8627000" />
+      <workItem from="1718352713713" duration="5665000" />
+      <workItem from="1718358730356" duration="371000" />
+      <workItem from="1718360403349" duration="1099000" />
+      <workItem from="1718361555905" duration="74000" />
+      <workItem from="1718361638123" duration="2907000" />
+      <workItem from="1718364585525" duration="8858000" />
+      <workItem from="1718374744053" duration="9503000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

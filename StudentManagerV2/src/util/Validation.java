@@ -58,6 +58,17 @@ public class Validation {
         }
     }
 
+    public String getInputString (String inputMessage, String invalidMessage) {
+        while(true) {
+            view.viewInput(inputMessage);
+            String sSemester = scanner.nextLine();
+            if(!sSemester.isEmpty()) {
+                return sSemester;
+            }
+            view.viewInvalidMessage(invalidMessage);
+        }
+    }
+
     public String getStudentCourse () {
         ArrayList<String> courses = new ArrayList<>();
         courses.add("java");

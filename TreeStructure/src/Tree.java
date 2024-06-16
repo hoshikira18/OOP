@@ -44,6 +44,9 @@ public class Tree {
             }
 
             current.key = minValue(current.right);
+            if(current.right == null) {
+                System.out.println("null");
+            }
 
             current.right = deleteRecursively(current.right, current.key);
 
